@@ -1,0 +1,50 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+.container #root {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(233, 250, 0);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+
+
+#display {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+button {
+    border: none;
+    background-color: rgb(0, 4, 255);
+    color: rgb(238, 0, 0);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: rgb(238, 0, 0);
+    color: rgb(0, 4, 255);
+    transition: all .5s;
+}
